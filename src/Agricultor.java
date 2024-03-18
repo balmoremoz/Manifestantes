@@ -44,7 +44,9 @@ public class Agricultor extends Manifestante {
         }
         return true;
     }
-    
+    public boolean getRemolque(){
+        return this.remolque;
+    }
     public boolean cambiarRemolque(){
         if (this.remolque){
             this.remolque=false;

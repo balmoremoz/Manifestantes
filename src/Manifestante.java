@@ -26,6 +26,14 @@ public class Manifestante {
         this.numero=contador;
         contador++;
     }
+
+    public String getNombre(){
+        return this.nombre;
+    }
+
+    public int getNumero(){
+        return this.numero;
+    }
     @Override
     public String toString(){
         return this.nombre+" "+this.numero+" "+this.localidad;
